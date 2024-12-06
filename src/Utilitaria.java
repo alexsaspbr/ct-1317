@@ -4,6 +4,9 @@ public class Utilitaria {
 
     private Scanner entrada;
 
+    public Utilitaria() {
+    }
+
     public Utilitaria(Scanner entrada) {
         this.entrada = entrada;
     }

@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import tech.ada.ct.modelo.Carro;
 
 public class Main {
 
@@ -31,11 +31,24 @@ public class Main {
 //                nome, Integer.parseInt(idade), Float.parseFloat(altura));
 
 
-        boolean isAnimal = false;
+  /*      boolean isAnimal = false;
         boolean isHumano = true;
 
         String resposta = isAnimal ? "É um animal" : (isHumano ? "É um humano" : "NÃO SEI O QUE É" ) ;
-        System.out.println(resposta);
+        System.out.println(resposta);*/
+
+     /*  if(isAnimal) {
+            return "É um animal";
+        } else if (isHumano) {
+            return "É um humano";
+        } else {
+            return "NÃO SEI O QUE É";
+        }*/
+
+
+        Carro carro = new Carro("Fiat");
+        carro.acelerar("V8");
+        carro.carregar();
 
 
     }
