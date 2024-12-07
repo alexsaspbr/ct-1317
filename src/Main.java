@@ -48,7 +48,7 @@ public class Main {
 
         Carro carro = new Carro("Fiat");
         carro.acelerar("V8");
-        carro.carregar();
+        Carro.carregar();
 
 
     }

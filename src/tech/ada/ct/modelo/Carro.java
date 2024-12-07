@@ -17,11 +17,15 @@ public class Carro {
     }
 
     //metodos (acoes)
-    public void ligarCambio(){}
+    protected String ligarCambio(){
+        return "Ligou carro";
+    }
     public void acelerar(String motor){
         System.out.println(motor);
         System.out.println(this.marca);
     }
-    public void carregar(){};
+    public static void carregar(){
+        //System.out.println(ligarCambio());
+    };
 
 }
