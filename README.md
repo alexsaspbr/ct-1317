@@ -12,7 +12,11 @@ K -> celsius + 273.15
 
 FAHRENHEIT:
 C -> (fehrenheit - 32) * 5 / 9
-k -> (fehrenheit + 459.67) * 5 / 9
+k -> (fehrenheit + 459.67) * 5 / 
+
+KELVIN:
+C-> kelvin - 273.15
+F-> (kelvin * 9 / 5) - 459.67
 
 ```
 ----
