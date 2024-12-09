@@ -1,4 +1,6 @@
 import tech.ada.ct.modelo.Carro;
+import tech.ada.ct.modelo.Email;
+import tech.ada.ct.modelo.NotaFiscal;
 
 public class Main {
 
@@ -49,6 +51,12 @@ public class Main {
         Carro carro = new Carro("Fiat");
         carro.acelerar("V8");
         Carro.carregar();
+
+
+        NotaFiscal notaFiscal = new NotaFiscal();
+        String nfDocumento = notaFiscal.gerarNF();
+        Email email = new Email();
+        email.enviarEmail(nfDocumento);
 
 
     }
